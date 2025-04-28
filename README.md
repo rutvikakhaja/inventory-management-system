@@ -33,3 +33,30 @@ DB_PORT="3306"
 DB_LOGGING="false"
 
 PORT="3000"
+
+
+<!-- you need to add this folder and file config/config.json -->
+
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "inventory_management_system",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "inventory_management_system",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "inventory_management_system",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
