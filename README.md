@@ -1,17 +1,21 @@
+install dependency 
+
 npm install 
 
-<!-- for run migrateion file -->
+for run migration file need to install this package
+
 npm i -g sequelize-cli  
 
 npm run migrate
 
-<!-- for start project  -->
+for start project 
+
 npm start
 
 
 
 env
-<!-- postgres -->
+<=== connect postgres ===>
 
 DB_NAME="inventory_management_system"
 DB_USERNAME=""
@@ -23,7 +27,8 @@ DB_LOGGING="false"
 
 PORT="3000"
 
-<!-- mysql -->
+<=== mysql ===>
+
 DB_NAME="inventory_management_system"
 DB_USERNAME=""
 DB_PASSWORD=""
@@ -35,7 +40,7 @@ DB_LOGGING="false"
 PORT="3000"
 
 
-<!-- you need to add this folder and file config/config.json -->
+<=== you need to add this folder and file config/config.json ===>
 
 {
   "development": {
